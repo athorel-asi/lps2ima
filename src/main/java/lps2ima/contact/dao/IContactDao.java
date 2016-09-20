@@ -9,21 +9,21 @@ import java.util.List;
  */
 public interface IContactDao {
 	/**
-	 * Méthode permettant l'ajout d'un contact
-	 * Dans le cas ou le contact existe déjà on retourne false
+	 * MÃ©thode permettant l'ajout d'un contact
+	 * Dans le cas ou le contact existe dÃ©jÃ  on retourne false
 	 * @param nom nom du contact 
-	 * @return <code>true</code> si le contact est ajouté sinon <code>false</code>
+	 * @return <code>true</code> si le contact est ajoutÃ© sinon <code>false</code>
 	 */
 	boolean addContact(String nom);
 	/**
-	 * Méthode permettant de supprimer un contact de la liste
+	 * MÃ©thode permettant de supprimer un contact de la liste
 	 * @param nom nom du contact
-	 * @return <code>true</code> si le contact a été correctement supprimé sinon <code>false</code>
+	 * @return <code>true</code> si le contact a Ã©tÃ© correctement supprimÃ© sinon <code>false</code>
 	 */
 	boolean delete(String nom);
 	
 	/**
-	 * Méthode permettant de récupérer l'annuaire complet
+	 * MÃ©thode permettant de rÃ©cupÃ©rer l'annuaire complet
 	 * @return liste des contacts
 	 */
 	List<String> list();

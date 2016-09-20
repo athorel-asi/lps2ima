@@ -34,10 +34,10 @@ public class ContactServiceMockTest extends MockTest{
 		// Fin de l'enregistrement 
 		replayAll();
 		
-		//Appel de la méthode 
+		//Appel de la mÃ©thode 
 		service.creerContact(nom);
 		
-		//Vérification - optionnelle 
+		//VÃ©rification
 		verifyAll();
 	}
 	
