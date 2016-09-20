@@ -25,7 +25,7 @@ public class MockFailTest extends MockTest{
 	@Mock
 	private IContactDao dao;
 
-	@Test(expected=ContactInexistException.class)
+	@Test
 	public void testCreerContactErr() throws ContactExistException{
 		
 		//Phase d'enregistrement des comportements 
